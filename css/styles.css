@@ -1,0 +1,31 @@
+body {
+    color: #333333;
+    font: 16px Instrument Sans, sans-serif;
+    background-color: #FFFDF7;
+}
+header {
+  background-color: #4EAF70;
+  color: #333333;
+  padding: 10px 20px;
+  display: flex;
+  align-items: flex-start;
+}
+
+.logo {
+  max-height: 50px;
+}
+
+.main-nav ul {
+  list-style: none;
+  padding: 20px;
+}
+
+.main-nav li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.main-nav a {
+  color: #333333;
+  text-decoration: none;
+}
