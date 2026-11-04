@@ -6,12 +6,19 @@ body {
 }
 
 .site-header {
-  display: flex;
   background-color: #4EAF70;
   width: 100%;
   height: 110px;
-  padding: 0 40px;
+}
+
+.header-container {
+  max-width: 1440px;
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  padding: 0 20px;
   box-sizing: border-box;
+  display: flex;
   justify-content: space-between;
   align-items: center;
 }
@@ -28,6 +35,7 @@ body {
   font-size: 36px;
   font-weight: 700;
   margin: 0;
+  white-space: nowrap;
 }
 
 .main-nav ul {
@@ -51,4 +59,5 @@ body {
   font-weight: 800;
   letter-spacing: 0.5px;
   font-size: 16px;
+  white-space: nowrap;
 }
