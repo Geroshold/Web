@@ -1,0 +1,111 @@
+<!doctype html>
+<html>
+<head>
+	<meta http-equiv="Content-type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Случайная загадка | Загадочный мир</title>
+	<link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+	<header class="site-header">
+		<div class="header-container">
+			<a href="/" class="logo">
+				<img src="/images/icon.svg" alt="Логотип сайта">
+				<h1>Загадочный мир</h1>
+			</a>
+			
+			<nav class="main-nav" aria-label="Основная навигация">
+				<ul>
+					<li><a href="/riddles.html">Загадки</a></li>
+					<li><a href="/categories.html">Категории</a></li>
+					<li><a href="/random.html" aria-current="page">Случайная</a></li>
+					<li><a href="/solved.html">Разгаданные</a></li>
+				</ul>
+			</nav>
+
+			<div class="counter"> 37/488 </div>
+		</div>
+	</header>
+	
+	<main>
+		<div class="random-riddle-layout">
+			
+			<!-- Левая колонка -->
+			<div class="random-left-side">
+				<div class="random-label">
+					<img src="/images/dices.svg" alt="Иконка кубиков">
+					Случайный выбор
+				</div>
+				
+				<h1 class="random-title">Одна загадка.<br>Один ответ.</h1>
+				<p class="random-subtitle">Не подглядывайте раньше времени — попробуйте найти ответ и проверьте себя.</p>
+				
+				<div class="random-progress-card">
+					<div class="random-progress-number">37 / 488</div>
+					<div class="random-progress-text">разгадано 7.6%</div>
+					<div class="progress-bar-bg">
+						<div class="progress-bar-fill" style="width: 7.6%;"></div>
+					</div>
+				</div>
+			</div>
+
+			<!-- Правая колонка с карточкой -->
+			<div class="random-riddle-card">
+				<div class="random-card-top">
+					<span class="card-tag">Логические</span>
+					<div class="card-meta">
+						<div class="stars">
+							<img src="/images/star.svg" alt="Сложность" class="star-icon star-active">
+							<img src="/images/star.svg" alt="Сложность" class="star-icon star-active">
+							<img src="/images/star.svg" alt="Сложность" class="star-icon star-active">
+						</div>
+						<span class="difficulty">Сложно</span>
+					</div>
+				</div>
+				
+				<h2 class="random-card-title">Чем больше из неё берёшь, тем больше она становится</h2>
+				<p class="random-card-desc">Загадка на сообразительность</p>
+				
+				<input type="text" placeholder="Введите ваш ответ" class="random-answer-input">
+				
+				<div class="random-card-actions">
+					<button class="random-btn-check">
+						Проверить
+						<img src="/images/arrow-right.svg" alt="Иконка стрелки">
+					</button>
+					<button class="random-btn-show">
+						<img src="/images/eye.svg">
+						Показать ответ
+					</button>
+				</div>
+				
+				<div class="random-card-bottom">
+					<span class="random-hint-text">Не подходит эта? Получите новую случайную загадку.</span>
+					<a href="#" class="random-btn-new">
+						<img src="/images/dice.svg" alt="Иконка кубика">
+						Другая загадка
+					</a>
+				</div>
+			</div>
+
+		</div>
+	</main>
+
+	<footer class="site-footer">
+    	<div class="footer-container">
+        	<div class="footer-content">
+				<span>&copy; 2026 «Загадочный мир»</span>
+				<span class="separator">·</span>
+				<a href="/about">О проекте</a>
+				<span class="separator">·</span>
+				<a href="/contact">Связаться с нами</a>
+				<span class="separator">·</span>
+				<a href="/suggest">Предложить загадку</a>
+				<span class="separator">·</span>
+				<a href="/privacy">Политика конфиденциальности</a>
+        	</div>
+    	</div>
+	</footer>
+</body>
+</html>

@@ -982,3 +982,207 @@ body {
   font-size: 14px;
   color: #645447;
 }
+
+/* === Стили для страницы случайной загадки === */
+.random-riddle-layout {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 60px;
+  max-width: 1440px; /* Как у основного контейнера */
+  margin: 0 auto;
+  padding: 60px 60px; /* Отступы как в .container */
+}
+
+/* Левая часть с текстом */
+.random-left-side {
+  max-width: 450px;
+  padding-top: 20px;
+}
+
+.random-label {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 16px;
+  font-weight: 500;
+  color: #645447;
+  margin-bottom: 20px;
+}
+
+.random-title {
+  font-size: 72px; /* Чуть крупнее, как на макете */
+  font-weight: 700;
+  line-height: 1.1;
+  margin: 0 0 24px 0;
+  color: #333333;
+}
+
+.random-subtitle {
+  font-size: 18px;
+  color: #645447;
+  line-height: 1.5;
+  margin-bottom: 40px;
+}
+
+.random-progress-card {
+  background-color: #EAE3D9;
+  border-radius: 20px;
+  padding: 30px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.random-progress-number {
+  font-size: 42px;
+  font-weight: 700;
+  color: #5D4D3D;
+  line-height: 1.1;
+  margin-bottom: 8px;
+  letter-spacing: -0.5px;
+}
+
+.random-progress-text {
+  font-size: 18px;
+  color: #5D4D3D;
+  margin-bottom: 24px;
+}
+
+/* Правая часть с карточкой загадки */
+.random-riddle-card {
+  background-color: #FFFFFF; /* Цвет фона как у body, чтобы сливалось, или #FFFFFF если нужна карточка */
+  border: 1px solid #CFC5AE;
+  border-radius: 20px;
+  padding: 40px;
+  flex-grow: 1;
+  max-width: 700px;
+  margin-top: 32px;
+}
+
+.random-card-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+.random-card-title {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 1.3;
+  margin: 0 0 12px 0;
+  color: #333333;
+}
+
+.random-card-desc {
+  font-size: 16px;
+  color: #645447;
+  margin-bottom: 40px;
+}
+
+/* Поле ввода как на макете (только нижняя граница) */
+.random-answer-input {
+  width: 100%;
+  border: none;
+  border: 1px solid #CFC5AE; /* Тонкая линия снизу */
+  padding: 12px 16px;
+  font-size: 16px;
+  background: transparent;
+  outline: none;
+  margin-bottom: 24px;
+  color: #333;
+  box-sizing: border-box;
+}
+
+.random-answer-input::placeholder {
+  color: #645447;
+}
+
+/* Блок с кнопками */
+.random-card-actions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+  padding-bottom: 24px;
+  border-bottom: 1px solid #EAE3D9; /* Линия-разделитель */
+}
+
+/* Кнопка "Проверить" — плоская, зеленый фон */
+.random-btn-check {
+  background-color: #86CC50;
+  border: none;
+  padding: 12px 24px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  color: #333333;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  transition: background 0.2s;
+}
+
+.random-btn-check:hover {
+  background-color: #73b542;
+}
+
+/* Кнопка "Показать ответ" — прозрачная с иконкой */
+.random-btn-show {
+  background: none;
+  border: none;
+  font-size: 16px;
+  color: #333333;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+  font-weight: 500;
+  padding: 0;
+}
+
+/* Нижняя часть карточки */
+.random-card-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.random-hint-text {
+  font-size: 16px;
+  color: #645447;
+}
+
+/* Кнопка "Другая загадка" — рамка, как на макете */
+.random-btn-new {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background: none;
+  border: 2px solid #86CC50;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #333333;
+  cursor: pointer;
+  text-decoration: none;
+  transition: background 0.2s;
+}
+
+.random-btn-new:hover {
+  background-color: #f0fbe9;
+}
+
+.random-progress-card .progress-bar-bg {
+  width: 100%;
+  height: 8px; /* Толщина полосы */
+  background-color: #D3CCB8; /* Темный бежевый фон полосы (как ты просил ранее) */
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.random-progress-card .progress-bar-fill {
+  height: 100%;
+  background-color: #86CC50; /* Твой зеленый цвет */
+  border-radius: 10px;
+}
