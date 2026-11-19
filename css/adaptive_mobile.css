@@ -394,6 +394,30 @@
         width: 100% !important;
     }
     
+    .toolbar {
+        display: flex !important;
+        flex-direction: column !important; /* Ставим в столбик */
+        gap: 15px !important; 
+        width: 100% !important;
+        align-items: stretch !important;
+    }
+
+    .search-bar-solved {
+        width: 100% !important;
+        box-sizing: border-box !important;
+    }
+
+    .sort-dropdown-details {
+        width: 100% !important;
+    }
+
+    .sort-dropdown {
+        display: flex !important;
+        justify-content: space-between !important;
+        width: 100% !important;
+        box-sizing: border-box !important;
+    }
+
     .stat-banner-divider {
         display: none !important;
     }
@@ -433,5 +457,87 @@
     .random-btn-check, 
     .random-btn-new {
         justify-content: center !important;
+    }
+
+    .pagination {
+        display: flex !important;
+        flex-direction: column !important; /* Ставим в столбик */
+        align-items: center !important;
+        gap: 15px !important; /* Расстояние между цифрами и кнопками */
+        width: 100% !important;
+        padding: 0 15px !important;
+        box-sizing: border-box !important;
+        margin-top: 20px !important;
+    }
+
+    .page-numbers {
+        display: flex !important;
+        flex-wrap: nowrap !important;
+        justify-content: center !important;
+        gap: 5px !important;
+        width: 100% !important;
+    }
+
+    .page-num {
+        width: 32px !important;
+        height: 32px !important;
+        font-size: 14px !important;
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+        color: #333333 !important;
+        text-decoration: none !important;
+        border-radius: 4px !important;
+    }
+    
+    .page-num.active {
+        background-color: #D4E8C8 !important;
+    }
+
+    .page-dots {
+        display: flex !important;
+        align-items: center !important;
+        justify-content: center !important;
+        width: 20px !important;
+        font-size: 14px !important;
+        color: #333333 !important;
+    }
+    
+    .page-nav {
+        display: inline-flex !important;
+        align-items: center !important;
+        gap: 5px !important;
+        font-size: 14px !important;
+        color: #333333 !important;
+        text-decoration: none !important;
+        white-space: nowrap !important;
+    }
+
+    .pagination {
+        position: relative !important;
+        padding-bottom: 40px !important; /* Оставляем место для кнопок внизу */
+    }
+
+    .page-nav {
+        position: absolute !important;
+        bottom: 0 !important;
+    }
+
+    .page-nav:first-child {
+        left: 15px !important;
+    }
+
+    .page-nav:last-child {
+        right: 15px !important;
+    }
+
+    .page-nav img {
+        display: block !important;
+        width: 14px !important;
+        height: 14px !important;
+    }
+
+    .page-numbers a:nth-child(n+6):not(:last-child) {
+        display: none !important;
     }
 }
