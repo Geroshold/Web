@@ -2,5 +2,6 @@
 @import url('layout.css');
 @import url('components.css');
 @import url('pages.css');
+@import url('adaptive_tablet_horizontal.css');
 @import url('adaptive_tablet_vertical.css');
 @import url('adaptive_mobile.css');

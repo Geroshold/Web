@@ -1,0 +1,144 @@
+@media (min-width: 769px) and (max-width: 1024px) {
+  .site-header {
+    height: auto;
+    padding: 24px 0 20px;
+  }
+
+  .header-container {
+    flex-wrap: wrap;
+    row-gap: 20px;
+    padding: 0 150px;
+  }
+
+  .logo {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .site-header h1 {
+    font-size: 34px;
+  }
+
+  .logo img {
+    width: 60px;
+    height: 60px;
+  }
+
+  .main-nav {
+    flex-grow: 1;
+  }
+
+  .main-nav ul {
+    gap: 32px;
+    justify-content: center;
+  }
+
+  .main-nav a {
+    font-size: 20px;
+    letter-spacing: 0.5px;
+  }
+
+  .counter {
+    padding: 14px 28px;
+    font-size: 16px;
+    font-weight: 700;
+  }
+
+  .main-section {
+    padding: 100px 0 70px;
+  }
+
+  .main-content {
+    max-width: 520px;
+  }
+
+  .main-titles {
+    font-size: 56px;
+    line-height: 1.25;
+    margin-bottom: 36px;
+  }
+
+  .buttons {
+    flex-direction: column;
+    gap: 14px;
+    margin-bottom: 36px;
+  }
+
+  .btn {
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 18px;
+    padding: 18px 24px;
+  }
+
+  .stats {
+    gap: 40px;
+  }
+
+  .right-visual {
+    width: 46%;
+    max-width: 460px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    margin-top: 0;
+  }
+
+  .fact-card {
+    width: 100%;
+    height: auto;
+    min-height: 440px;
+    padding: 40px 32px;
+    box-sizing: border-box;
+    position: relative;
+    z-index: 1;
+  }
+
+  .fact-title {
+    position: static;
+    transform: none;
+    display: table;
+    margin: 0 auto 24px;
+    padding: 10px 36px;
+    font-size: 26px;
+  }
+
+  .fact-card p {
+    font-size: 28px;
+    line-height: 1.55;
+  }
+
+  .owl-image {
+    position: absolute;
+    width: 240px;
+    
+    top: -30px;
+    left: -130px;
+    
+    transform: rotate(-45deg); 
+    
+    z-index: 0; 
+    
+    display: block;
+    object-fit: contain;
+  }
+  
+  .random-riddle-layout {
+    padding: 40px;
+    gap: 40px;
+  }
+  
+  .random-left-side {
+    max-width: 380px;
+  }
+
+  .categories-grid {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+
+  .category-card {
+    padding: 22px;
+  }
+}

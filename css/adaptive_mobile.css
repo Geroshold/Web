@@ -1,543 +1,542 @@
 @media (max-width: 480px) {
     html, body {
-        overflow-x: hidden !important;
-        width: 100% !important;
+        overflow-x: hidden;
+        width: 100%;
     }
 
     .site-header {
-        height: auto !important;
-        padding: 20px 15px 15px 15px !important;
-        width: 100% !important;
-        box-sizing: border-box !important;
+        height: auto;
+        padding: 20px 15px 15px 15px;
+        width: 100%;
+        box-sizing: border-box;
     }
     
     .header-container {
-        display: flex !important;
-        flex-direction: column !important;
-        align-items: center !important;
-        gap: 15px !important;
-        padding: 0 !important;
-        width: 100% !important;
-        max-width: 100% !important;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+        padding: 0;
+        width: 100%;
+        max-width: 100%;
     }
     
     .logo {
-        display: flex !important;
-        flex-direction: row !important;
-        justify-content: center !important;
-        align-items: center !important;
-        gap: 10px !important;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
     }
     
     .logo h1 {
-        font-size: 22px !important;
+        font-size: 22px;
     }
 
     .main-nav {
-        width: 100% !important;
-        max-width: 100% !important;
-        padding: 0 !important;
-        margin: 0 !important;
+        width: 100%;
+        max-width: 100%;
+        padding: 0;
+        margin: 0;
     }
     
     .main-nav ul {
-        display: grid !important;
-        grid-template-columns: 1fr 1fr !important;
-        gap: 10px !important;
-        padding: 0 !important;
-        margin: 0 !important;
-        width: 100% !important;
-        max-width: 100% !important;
-        box-sizing: border-box !important;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 10px;
+        padding: 0;
+        margin: 0;
+        width: 100%;
+        max-width: 100%;
+        box-sizing: border-box;
     }
     
     .main-nav li {
-        width: 100% !important;
-        display: block !important;
-        margin: 0 !important;
-        padding: 0 !important;
+        width: 100%;
+        display: block;
+        margin: 0;
+        padding: 0;
     }
     
     .main-nav a {
-        display: block !important;
-        text-align: center !important;
-        font-size: 15px !important;
-        padding: 10px 5px !important;
-        background-color: #86CC50 !important;
-        border-radius: 20px !important;
-        text-decoration: none !important;
-        color: #333333 !important;
-        font-weight: 500 !important;
-        white-space: nowrap !important;
-        box-sizing: border-box !important;
-        width: 100% !important;
-        margin: 0 !important;
+        display: block;
+        text-align: center;
+        font-size: 15px;
+        padding: 10px 5px;
+        background-color: #86CC50;
+        border-radius: 20px;
+        text-decoration: none;
+        color: #333333;
+        font-weight: 500;
+        white-space: nowrap;
+        box-sizing: border-box;
+        width: 100%;
+        margin: 0;
     }
 
     .main-nav a[aria-current="page"] {
-        text-decoration: underline !important;
-        text-underline-offset: 2px !important;
+        text-decoration: underline;
+        text-underline-offset: 2px;
     }
     
     .counter {
-        width: auto !important;
-        padding: 8px 25px !important;
-        margin: 0 auto !important;
-        border-radius: 6px !important;
-        font-size: 14px !important;
-        background-color: #86CC50 !important;
+        width: auto;
+        padding: 8px 25px;
+        margin: 0 auto;
+        font-size: 14px;
+        background-color: #86CC50;
     }
 
     .container {
-        padding: 20px 15px !important;
-        gap: 20px !important;
-        flex-direction: column !important;
+        padding: 0px 15px;
+        gap: 20px;
+        flex-direction: column;
     }
     
     .main-content {
-        max-width: 100% !important;
-        width: 100% !important;
+        max-width: 100%;
+        width: 100%;
     }
     
     .main-titles {
-        font-size: 38px !important;
-        line-height: 1.15 !important;
-        margin-bottom: 25px !important;
-        text-align: center !important;
+        font-size: 38px;
+        line-height: 1.15;
+        margin-bottom: 25px;
+        text-align: center;
     }
     
     .buttons {
-        display: flex !important;
-        flex-direction: column !important;
-        gap: 12px !important;
-        width: 100% !important;
-        max-width: 100% !important;
-        box-sizing: border-box !important;
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+        width: 100%;
+        max-width: 100%;
+        box-sizing: border-box;
     }
     
     .btn {
-        display: flex !important;
-        width: 100% !important;
-        max-width: 100% !important;
-        padding: 14px !important;
-        font-size: 16px !important;
-        justify-content: center !important;
-        align-items: center !important;
-        box-sizing: border-box !important;
-        margin: 0 !important;
+        display: flex;
+        width: 100%;
+        max-width: 100%;
+        padding: 14px;
+        font-size: 16px;
+        justify-content: center;
+        align-items: center;
+        box-sizing: border-box;
+        margin: 0;
     }
 
     .stats {
-        display: flex !important;
-        flex-direction: row !important;
-        justify-content: space-between !important;
-        align-items: flex-start !important;
-        width: 100% !important;
-        margin-top: 25px !important;
-        gap: 10px !important;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+        width: 100%;
+        margin-top: 25px;
+        gap: 10px;
     }
     
     .stats > div {
-        text-align: center !important;
-        font-size: 12px !important;
-        flex: 1 !important;
-        display: flex !important;
-        flex-direction: column !important;
-        align-items: center !important;
+        text-align: center;
+        font-size: 12px;
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
     
     .stats strong {
-        display: block !important;
-        font-size: 20px !important;
-        margin-bottom: 4px !important;
+        display: block;
+        font-size: 20px;
+        margin-bottom: 4px;
     }
     
     .stat-divider {
-        width: 1px !important;
-        min-width: 1px !important;
-        max-width: 1px !important;
-        height: 30px !important;
-        background-color: #CFC5AE !important;
-        align-self: center !important;
-        flex-shrink: 0 !important;
-        padding: 0 !important;
-        margin: 0 !important;
-        border: none !important;
+        width: 1px;
+        min-width: 1px;
+        max-width: 1px;
+        height: 30px;
+        background-color: #CFC5AE;
+        align-self: center;
+        flex-shrink: 0;
+        padding: 0;
+        margin: 0;
+        border: none;
     }
 
     .right-visual {
-        position: relative !important;
-        display: block !important;
-        width: 100% !important;
-        margin-top: 70px !important;
-        padding: 0 10px !important;
-        box-sizing: border-box !important;
+        position: relative;
+        display: block;
+        width: 100%;
+        margin-top: 70px;
+        padding: 0 10px;
+        box-sizing: border-box;
     }
     
     .fact-card {
-        width: 100% !important;
-        height: auto !important;
-        padding: 25px 20px 30px 20px !important;
-        box-sizing: border-box !important;
-        margin: 0 !important;
-        position: relative !important;
-        z-index: 2 !important;
-        border-radius: 20px !important;
+        width: 100%;
+        height: auto;
+        padding: 25px 20px 30px 20px;
+        box-sizing: border-box;
+        margin: 0;
+        position: relative;
+        z-index: 2;
+        border-radius: 20px;
     }
     
     .fact-title {
-        position: static !important;
-        transform: none !important;
-        margin: 0 auto 15px auto !important;
-        display: table !important;
-        font-size: 16px !important;
-        padding: 8px 25px !important;
-        background-color: #FFFDF7 !important;
-        border-radius: 20px !important;
+        position: static;
+        transform: none;
+        margin: 0 auto 15px auto;
+        display: table;
+        font-size: 16px;
+        padding: 8px 25px;
+        background-color: #FFFDF7;
+        border-radius: 20px;
     }
     
     .fact-card p {
-        font-size: 18px !important;
-        line-height: 1.4 !important;
-        text-align: center !important;
-        margin: 0 !important;
+        font-size: 18px;
+        line-height: 1.4;
+        text-align: center;
+        margin: 0;
     }
     
     .owl-image {
-        position: absolute !important;
-        width: 180px !important;
-        top: -80px !important;
-        left: 50% !important;
-        transform: translateX(-50%) !important;
-        z-index: 1 !important;
+        position: absolute;
+        width: 180px;
+        top: -80px;
+        left: 50%;
+        transform: translateX(-50%);
+        z-index: 1;
     }
 
     .page-header {
-        display: flex !important;
-        flex-direction: column !important;
-        align-items: flex-start !important;
-        gap: 10px !important;
-        margin-bottom: 20px !important;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+        margin-bottom: 20px;
     }
     
     .page-title {
-        font-size: 32px !important;
+        font-size: 32px;
     }
 
     .progress-info {
-        text-align: left !important;
-        display: flex !important;
-        flex-direction: row !important;
-        align-items: baseline !important;
-        gap: 10px !important;
+        text-align: left;
+        display: flex;
+        flex-direction: row;
+        align-items: baseline;
+        gap: 10px;
     }
 
     .progress-count {
-        font-size: 28px !important;
+        font-size: 28px;
     }
 
     .progress-text {
-        font-size: 14px !important;
+        font-size: 14px;
     }
 
     .container-riddles {
-        width: 100% !important;
-        max-width: 100% !important;
-        box-sizing: border-box !important;
-        padding-left: 15px !important;
-        padding-right: 15px !important;
+        width: 100%;
+        max-width: 100%;
+        box-sizing: border-box;
+        padding-left: 15px;
+        padding-right: 15px;
     }
 
     .riddles-page, 
     .riddles-layout, 
     .riddles-content {
-        width: 100% !important;
-        max-width: 100% !important;
-        box-sizing: border-box !important;
-        padding-left: 0 !important;
-        padding-right: 0 !important;
-        margin-left: 0 !important;
-        margin-right: 0 !important;
+        width: 100%;
+        max-width: 100%;
+        box-sizing: border-box;
+        padding-left: 0;
+        padding-right: 0;
+        margin-left: 0;
+        margin-right: 0;
     }
 
     .riddles-layout {
-        flex-direction: column !important;
-        gap: 20px !important;
+        flex-direction: column;
+        gap: 20px;
     }
     
     .filters-sidebar {
-        width: 100% !important;
-        max-width: 100% !important;
-        box-sizing: border-box !important;
-        padding: 15px !important;
-        display: flex !important;
-        flex-direction: column !important;
+        width: 100%;
+        max-width: 100%;
+        box-sizing: border-box;
+        padding: 15px;
+        display: flex;
+        flex-direction: column;
     }
     
     .filter-options {
-        display: flex !important;
-        flex-direction: row !important;
-        flex-wrap: wrap !important;
-        gap: 8px !important;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 8px;
     }
     
     .filter-btn {
-        flex: 1 1 45% !important;
-        padding: 8px !important;
-        font-size: 13px !important;
+        flex: 1 1 45%;
+        padding: 8px;
+        font-size: 13px;
     }
 
     .riddles-grid {
-        display: flex !important;
-        flex-direction: column !important;
-        gap: 15px !important;
-        width: 100% !important;
-        max-width: 100% !important;
-        box-sizing: border-box !important;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        width: 100%;
+        max-width: 100%;
+        box-sizing: border-box;
     }
     
     .riddle-card {
-        padding: 20px !important;
-        width: 100% !important;
-        max-width: 100% !important;
-        box-sizing: border-box !important;
-        overflow: hidden !important;
+        padding: 20px;
+        width: 100%;
+        max-width: 100%;
+        box-sizing: border-box;
+        overflow: hidden;
     }
 
     .card-top {
-        display: flex !important;
-        flex-direction: column !important;
-        align-items: flex-start !important;
-        gap: 8px !important;
-        margin-bottom: 15px !important;
-        width: 100% !important;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 8px;
+        margin-bottom: 15px;
+        width: 100%;
     }
     
     .card-meta {
-        display: flex !important;
-        align-items: center !important;
-        gap: 5px !important;
-        margin-left: 0 !important;
+        display: flex;
+        align-items: center;
+        gap: 5px;
+        margin-left: 0;
     }
 
     .card-title {
-        font-size: 18px !important;
-        margin-bottom: 10px !important;
-        word-wrap: break-word !important;
+        font-size: 18px;
+        margin-bottom: 10px;
+        word-wrap: break-word;
     }
 
     .card-desc {
-        margin-bottom: 20px !important;
+        margin-bottom: 20px;
     }
 
     .card-input-area {
-        margin-top: 0 !important;
-        width: 100% !important;
+        margin-top: 0;
+        width: 100%;
     }
     
     .answer-input {
-        width: 100% !important;
-        max-width: 100% !important;
-        margin-bottom: 15px !important;
-        padding: 10px 0 !important;
-        box-sizing: border-box !important;
+        width: 100%;
+        max-width: 100%;
+        margin-bottom: 15px;
+        padding: 10px 0;
+        box-sizing: border-box;
     }
 
     .card-actions {
-        display: flex !important;
-        flex-direction: column !important;
-        gap: 10px !important;
-        width: 100% !important;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        width: 100%;
     }
     
     .btn-check {
-        width: 100% !important;
-        max-width: 100% !important;
-        box-sizing: border-box !important;
-        justify-content: center !important;
-        padding: 12px !important;
-        margin: 0 !important;
+        width: 100%;
+        max-width: 100%;
+        box-sizing: border-box;
+        justify-content: center;
+        padding: 12px;
+        margin: 0;
     }
     
     .btn-show-answer {
-        width: 100% !important;
-        max-width: 100% !important;
-        box-sizing: border-box !important;
-        justify-content: center !important;
-        padding: 12px !important;
-        background-color: transparent !important;
-        border: none !important;
-        color: #333333 !important;
-        margin: 0 !important;
+        width: 100%;
+        max-width: 100%;
+        box-sizing: border-box;
+        justify-content: center;
+        padding: 12px;
+        background-color: transparent;
+        border: none;
+        color: #333333;
+        margin: 0;
     }
 
     .categories-grid {
-        display: flex !important;
-        flex-direction: column !important;
-        gap: 15px !important;
-        width: 100% !important;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        width: 100%;
     }
     
     .category-card {
-        width: 100% !important;
-        max-width: 100% !important;
-        box-sizing: border-box !important;
-        padding: 20px !important;
+        width: 100%;
+        max-width: 100%;
+        box-sizing: border-box;
+        padding: 20px;
     }
 
     .solved-stats-banner {
-        display: flex !important;
-        flex-direction: column !important;
-        gap: 20px !important;
-        padding: 20px !important;
-        box-sizing: border-box !important;
-        width: 100% !important;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        padding: 20px;
+        box-sizing: border-box;
+        width: 100%;
     }
     
     .toolbar {
-        display: flex !important;
-        flex-direction: column !important; /* Ставим в столбик */
-        gap: 15px !important; 
-        width: 100% !important;
-        align-items: stretch !important;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        width: 100%;
+        align-items: stretch;
     }
 
     .search-bar-solved {
-        width: 100% !important;
-        box-sizing: border-box !important;
+        width: 100%;
+        box-sizing: border-box;
     }
 
     .sort-dropdown-details {
-        width: 100% !important;
+        width: 100%;
     }
 
     .sort-dropdown {
-        display: flex !important;
-        justify-content: space-between !important;
-        width: 100% !important;
-        box-sizing: border-box !important;
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        box-sizing: border-box;
     }
 
     .stat-banner-divider {
-        display: none !important;
+        display: none;
     }
     
     .stat-banner-difficulty {
-        width: 100% !important;
-        margin-top: 10px !important;
+        width: 100%;
+        margin-top: 10px;
     }
     
     .difficulty-row {
-        margin-bottom: 10px !important;
+        margin-bottom: 10px;
     }
 
     .random-riddle-layout {
-        flex-direction: column !important;
-        padding: 20px 15px !important;
-        gap: 20px !important;
-        width: 100% !important;
-        box-sizing: border-box !important;
+        flex-direction: column;
+        padding: 20px 15px;
+        gap: 20px;
+        width: 100%;
+        box-sizing: border-box;
     }
     
     .random-left-side, 
     .random-riddle-card {
-        max-width: 100% !important;
-        width: 100% !important;
-        margin-top: 0 !important;
-        box-sizing: border-box !important;
+        max-width: 100%;
+        width: 100%;
+        margin-top: 0;
+        box-sizing: border-box;
     }
     
     .random-card-actions, 
     .random-card-bottom {
-        flex-direction: column !important;
-        align-items: stretch !important;
-        gap: 15px !important;
+        flex-direction: column;
+        align-items: stretch;
+        gap: 15px;
     }
     
     .random-btn-check, 
     .random-btn-new {
-        justify-content: center !important;
+        justify-content: center;
     }
 
     .pagination {
-        display: flex !important;
-        flex-direction: column !important; /* Ставим в столбик */
-        align-items: center !important;
-        gap: 15px !important; /* Расстояние между цифрами и кнопками */
-        width: 100% !important;
-        padding: 0 15px !important;
-        box-sizing: border-box !important;
-        margin-top: 20px !important;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+        width: 100%;
+        padding: 0 15px;
+        box-sizing: border-box;
+        margin-top: 20px;
     }
 
     .page-numbers {
-        display: flex !important;
-        flex-wrap: nowrap !important;
-        justify-content: center !important;
-        gap: 5px !important;
-        width: 100% !important;
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: center;
+        gap: 5px;
+        width: 100%;
     }
 
     .page-num {
-        width: 32px !important;
-        height: 32px !important;
-        font-size: 14px !important;
-        display: flex !important;
-        justify-content: center !important;
-        align-items: center !important;
-        color: #333333 !important;
-        text-decoration: none !important;
-        border-radius: 4px !important;
+        width: 32px;
+        height: 32px;
+        font-size: 14px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #333333;
+        text-decoration: none;
+        border-radius: 4px;
     }
     
     .page-num.active {
-        background-color: #D4E8C8 !important;
+        background-color: #D4E8C8;
     }
 
     .page-dots {
-        display: flex !important;
-        align-items: center !important;
-        justify-content: center !important;
-        width: 20px !important;
-        font-size: 14px !important;
-        color: #333333 !important;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 20px;
+        font-size: 14px;
+        color: #333333;
     }
     
     .page-nav {
-        display: inline-flex !important;
-        align-items: center !important;
-        gap: 5px !important;
-        font-size: 14px !important;
-        color: #333333 !important;
-        text-decoration: none !important;
-        white-space: nowrap !important;
+        display: inline-flex;
+        align-items: center;
+        gap: 5px;
+        font-size: 14px;
+        color: #333333;
+        text-decoration: none;
+        white-space: nowrap;
     }
 
     .pagination {
-        position: relative !important;
-        padding-bottom: 40px !important; /* Оставляем место для кнопок внизу */
+        position: relative;
+        padding-bottom: 40px;
     }
 
     .page-nav {
-        position: absolute !important;
-        bottom: 0 !important;
+        position: absolute;
+        bottom: 0;
     }
 
     .page-nav:first-child {
-        left: 15px !important;
+        left: 15px;
     }
 
     .page-nav:last-child {
-        right: 15px !important;
+        right: 15px;
     }
 
     .page-nav img {
-        display: block !important;
-        width: 14px !important;
-        height: 14px !important;
+        display: block;
+        width: 14px;
+        height: 14px;
     }
 
     .page-numbers a:nth-child(n+6):not(:last-child) {
-        display: none !important;
+        display: none;
     }
 }
