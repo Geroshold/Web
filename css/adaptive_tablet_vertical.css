@@ -1,8 +1,4 @@
-/* =========================================
-   АДАПТИВНОСТЬ: Планшеты вертикально (до 768px)
-   ========================================= */
 @media (max-width: 768px) {
-    /* --- 1. ШАПКА --- */
     .site-header {
         height: auto !important;
         padding: 20px 20px 15px 20px !important;
@@ -89,15 +85,15 @@
         width: auto !important;
         padding: 8px 20px !important;
         margin: 0 !important;
+        border-radius: 6px !important;
         font-size: 16px !important;
         background-color: #86CC50 !important;
         white-space: nowrap !important;
     }
 
-    /* --- 2. ГЛАВНАЯ СТРАНИЦА --- */
     .container {
-        padding: 30px 20px !important;
-        gap: 20px !important;
+        padding: 25px 20px !important;
+        gap: 15px !important;
         flex-direction: column !important;
     }
 
@@ -107,9 +103,9 @@
     }
 
     .main-titles {
-        font-size: 64px !important;
-        line-height: 1.1 !important;
-        margin-bottom: 30px !important;
+        font-size: 42px !important;
+        line-height: 1.2 !important;
+        margin-bottom: 20px !important;
         text-align: center !important;
     }
 
@@ -119,13 +115,14 @@
         justify-content: center !important;
         gap: 15px !important;
         width: 100% !important;
+        margin-bottom: 25px !important;
     }
 
     .btn {
         display: flex !important;
         width: auto !important;
-        padding: 16px 30px !important;
-        font-size: 18px !important;
+        padding: 14px 25px !important;
+        font-size: 16px !important;
         justify-content: center !important;
         align-items: center !important;
         box-sizing: border-box !important;
@@ -138,8 +135,8 @@
         justify-content: center !important;
         align-items: flex-start !important;
         width: 100% !important;
-        margin-top: 30px !important;
-        gap: 30px !important;
+        margin-top: 20px !important;
+        gap: 20px !important;
     }
 
     .stats > div {
@@ -153,22 +150,21 @@
     .stats strong {
         display: block !important;
         font-size: 32px !important;
-        margin-bottom: 4px !important;
+        margin-bottom: 2px !important;
     }
 
     .stat-divider {
         width: 1px !important;
-        height: 40px !important;
+        height: 35px !important;
         background-color: #CFC5AE !important;
         align-self: center !important;
     }
 
-    /* --- 3. СОВА И ФАКТ --- */
     .right-visual {
         position: relative !important;
         display: block !important;
         width: 100% !important;
-        margin-top: 100px !important;
+        margin-top: 80px !important;
         padding: 0 10px !important;
         box-sizing: border-box !important;
     }
@@ -176,7 +172,7 @@
     .fact-card {
         width: 100% !important;
         height: auto !important;
-        padding: 40px 40px 40px 40px !important;
+        padding: 30px !important;
         box-sizing: border-box !important;
         margin: 0 !important;
         position: relative !important;
@@ -187,17 +183,17 @@
     .fact-title {
         position: static !important;
         transform: none !important;
-        margin: 0 auto 20px auto !important;
+        margin: 0 auto 15px auto !important;
         display: table !important;
         font-size: 22px !important;
-        padding: 10px 30px !important;
+        padding: 8px 25px !important;
         background-color: #FFFDF7 !important;
         border-radius: 20px !important;
     }
 
     .fact-card p {
-        font-size: 24px !important;
-        line-height: 1.4 !important;
+        font-size: 16px !important;
+        line-height: 1.5 !important;
         text-align: center !important;
         margin: 0 !important;
         font-weight: 600 !important;
@@ -205,81 +201,237 @@
 
     .owl-image {
         position: absolute !important;
-        width: 180px !important;
-        top: -80px !important;
+        width: 160px !important;
+        top: -70px !important;
         left: 50% !important;
         transform: translateX(-50%) !important;
         z-index: 1 !important;
     }
 
-    /* --- 4. ОСТАЛЬНЫЕ СТРАНИЦЫ --- */
+    .random-riddle-layout {
+        flex-direction: column !important;
+        padding: 25px 20px !important;
+        gap: 15px !important;
+        width: 100% !important;
+        box-sizing: border-box !important;
+        align-items: flex-start !important;
+    }
+
+    .random-left-side {
+        max-width: 100% !important;
+        width: 100% !important;
+        padding-top: 0 !important;
+        text-align: left !important;
+    }
+
+    .random-label {
+        justify-content: flex-start !important;
+        margin-bottom: 10px !important;
+        font-size: 16px !important;
+    }
+
+    .random-title {
+        font-size: 42px !important;
+        text-align: left !important;
+        white-space: nowrap !important;
+        line-height: 1.1 !important;
+        margin-bottom: 10px !important;
+    }
+
+    .random-subtitle {
+        text-align: left !important;
+        font-size: 16px !important;
+        line-height: 1.5 !important;
+        margin-bottom: 20px !important;
+    }
+
+    .random-progress-card {
+        width: 100% !important;
+        max-width: 100% !important;
+        margin: 0 !important;
+        padding: 20px !important;
+    }
+
+    .random-progress-number {
+        font-size: 32px !important;
+        margin-bottom: 5px !important;
+    }
+
+    .random-progress-text {
+        font-size: 16px !important;
+        text-align: left !important;
+        width: 100% !important;
+        margin-bottom: 15px !important;
+        display: block !important;
+    }
+
+    .random-riddle-card {
+        max-width: 100% !important;
+        width: 100% !important;
+        margin-top: 0 !important;
+        padding: 30px !important;
+        box-sizing: border-box !important;
+    }
+
+    .random-card-title {
+        font-size: 42px !important;
+        line-height: 1.2 !important;
+        margin-bottom: 15px !important;
+    }
+
+    .random-card-desc {
+        font-size: 16px !important;
+        margin-bottom: 25px !important;
+    }
+
+    .random-answer-input {
+        font-size: 16px !important;
+        padding: 12px !important;
+        margin-bottom: 20px !important;
+    }
+
+    .random-card-actions {
+        flex-direction: row !important;
+        justify-content: space-between !important;
+        align-items: center !important;
+        gap: 15px !important;
+        margin-bottom: 25px !important;
+        padding-bottom: 20px !important;
+    }
+
+    .random-card-bottom {
+        flex-direction: row !important;
+        justify-content: space-between !important;
+        align-items: center !important;
+        gap: 15px !important;
+    }
+
+    .random-hint-text {
+        font-size: 16px !important;
+    }
+
     .riddles-grid,
     .categories-grid {
         grid-template-columns: repeat(2, 1fr) !important;
         display: grid !important;
-        gap: 20px !important;
+        gap: 15px !important;
     }
 
     .riddles-layout {
         flex-direction: column !important;
+        gap: 20px !important;
     }
 
     .filters-sidebar {
         width: 100% !important;
         box-sizing: border-box !important;
-        margin-bottom: 20px !important;
+        margin-bottom: 15px !important;
+        padding: 20px !important;
     }
 
     .filter-options {
-        flex-direction: row !important;
-        flex-wrap: wrap !important;
+        display: grid !important;
+        grid-template-columns: repeat(2, 1fr) !important;
+        gap: 10px !important;
     }
 
     .filter-btn {
-        flex: 1 1 30% !important;
+        width: 100% !important;
+        font-size: 16px !important;
+        padding: 10px !important;
     }
 
     .filter-checkboxes {
-        flex-direction: row !important;
-        flex-wrap: wrap !important;
-        gap: 20px !important;
+        display: grid !important;
+        grid-template-columns: repeat(2, 1fr) !important;
+        gap: 10px !important;
+    }
+
+    .checkbox-label {
+        font-size: 16px !important;
+    }
+
+    .filter-divider {
+        margin-top: 15px !important;
+        margin-bottom: 15px !important;
+        width: 100% !important;
     }
 
     .card-actions {
         flex-direction: row !important;
         justify-content: space-between !important;
         align-items: center !important;
+        margin-top: 15px !important;
     }
 
     .btn-check {
         width: auto !important;
-        padding: 12px 30px !important;
+        padding: 10px 25px !important;
+        font-size: 16px !important;
     }
 
     .btn-show-answer {
         width: auto !important;
         background-color: transparent !important;
         border: none !important;
+        font-size: 16px !important;
     }
 
-    /* --- 5. ПАГИНАЦИЯ --- */
+    .page-header {
+        margin-bottom: 15px !important;
+    }
+
+    .page-title {
+        font-size: 42px !important;
+        margin-bottom: 10px !important;
+    }
+
+    .progress-count {
+        font-size: 32px !important;
+    }
+
+    .progress-text {
+        font-size: 16px !important;
+    }
+
+    .search-bar {
+        margin-bottom: 20px !important;
+    }
+
     .pagination {
         flex-direction: row !important;
         flex-wrap: wrap !important;
         justify-content: center !important;
-        gap: 15px !important;
+        gap: 10px !important;
         position: static !important;
         padding-bottom: 0 !important;
+        margin-top: 25px !important;
     }
 
     .page-nav {
         position: static !important;
-        font-size: 18px !important;
+        font-size: 16px !important;
     }
 
     .page-num {
-        width: 40px !important;
-        height: 40px !important;
-        font-size: 18px !important;
+        width: 36px !important;
+        height: 36px !important;
+        font-size: 16px !important;
+    }
+
+    .card-title {
+        font-size: 22px !important;
+    }
+
+    .card-desc {
+        font-size: 16px !important;
+    }
+
+    .category-title {
+        font-size: 24px !important;
+    }
+
+    .category-desc {
+        font-size: 16px !important;
     }
 }
