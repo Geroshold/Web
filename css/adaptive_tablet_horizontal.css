@@ -28,6 +28,10 @@
     flex-grow: 1;
   }
 
+  .main-section {
+        padding: 10px 0 30px;
+    }
+
   .main-nav ul {
     gap: 32px;
     justify-content: center;

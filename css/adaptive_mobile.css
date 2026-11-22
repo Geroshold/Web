@@ -93,6 +93,10 @@
         flex-direction: column;
     }
     
+    .main-section {
+        padding: 10px 0 30px;
+    }
+
     .main-content {
         max-width: 100%;
         width: 100%;

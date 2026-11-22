@@ -41,6 +41,10 @@
         align-items: center;
     }
 
+    .main-section {
+        padding: 10px 0 30px;
+    }
+
     .main-nav ul {
         display: flex;
         flex-direction: row;
@@ -191,7 +195,7 @@
     }
 
     .fact-card p {
-        font-size: 16px;
+        font-size: 22px;
         line-height: 1.5;
         text-align: center;
         margin: 0;
