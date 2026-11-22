@@ -483,3 +483,54 @@
   background-color: #86CC50;
   border-radius: 10px;
 }
+
+/* --- Шапка фильтров --- */
+.filters-header {
+    list-style: none; 
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between; /* Заголовок слева, кнопка справа */
+    align-items: center;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.filters-header::-webkit-details-marker {
+    display: none;
+}
+
+/* Заголовок (иконка + текст + стрелочка) */
+.filters-title {
+    display: flex;
+    align-items: center;
+    gap: 8px; /* Расстояние между иконкой, текстом и стрелочкой */
+    font-size: 18px;
+    font-weight: 700;
+    color: #333333;
+}
+
+/* Стрелочка */
+.filters-arrow-img {
+    width: 16px;
+    height: 16px;
+    transition: transform 0.3s ease;
+    display: block;
+    margin-left: 5px; /* Небольшой отступ от слова "Фильтры" */
+}
+
+/* Поворот стрелочки при открытии */
+.filters-accordion[open] .filters-arrow-img {
+    transform: rotate(180deg);
+}
+
+/* Кнопка Сбросить */
+.reset-filters {
+    font-size: 14px;
+    color: #645447;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.reset-filters:hover {
+    text-decoration: underline;
+}

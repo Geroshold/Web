@@ -44,40 +44,54 @@
 			</div>
 
 			<div class="riddles-layout">
+				<!-- САЙДБАР С ФИЛЬТРАМИ -->
 				<aside class="filters-sidebar">
-					<div class="filters-header">
-						<div class="filters-title">
-							<img src="/images/sliders-horizontal.svg" alt="Фильтры">
-                            Фильтры
+					<details class="filters-accordion" open> 
+						<summary class="filters-header">
+    <!-- Левая часть: иконка, текст и стрелочка -->
+    <div class="filters-title">
+        <img src="/images/sliders-horizontal.svg" alt="Фильтры">
+        Фильтры
+        <!-- Стрелочка теперь здесь, рядом с текстом -->
+        <img src="/images/chevron-down.svg" alt="Развернуть" class="filters-arrow-img">
+    </div>
+    
+    <!-- Правая часть: Сбросить -->
+    <a href="#" class="reset-filters" onclick="event.stopPropagation();">Сбросить</a>
+</summary>
+
+						<!-- Сами фильтры (внутри details) -->
+						<div class="filter-divider"></div>
+						
+						<div class="filter-group">
+							<div class="filter-label">Сложность</div>
+							<div class="filter-options">
+								<button class="filter-btn active">Любая</button>
+								<button class="filter-btn">Лёгкие</button>
+								<button class="filter-btn">Средние</button>
+								<button class="filter-btn">Сложные</button>
+							</div>
 						</div>
-						<a href="#" class="reset-filters">Сбросить</a>
-					</div>
-                    <div class="filter-divider"></div>
-					<div class="filter-group">
-						<div class="filter-label">Сложность</div>
-						<div class="filter-options">
-							<button class="filter-btn active">Любая</button>
-							<button class="filter-btn">Лёгкие</button>
-							<button class="filter-btn">Средние</button>
-							<button class="filter-btn">Сложные</button>
+						
+						<div class="filter-divider"></div>
+						
+						<div class="filter-group">
+							<div class="filter-label categories-header">
+								Категории
+								<a href="categories.html" class="view-all">Посмотреть все</a>
+							</div>
+							<div class="filter-checkboxes">
+								<label class="checkbox-label"><input type="checkbox"> Логические</label>
+								<label class="checkbox-label"><input type="checkbox"> Про животных</label>
+								<label class="checkbox-label"><input type="checkbox"> Про природу</label>
+								<label class="checkbox-label"><input type="checkbox"> Про вещи</label>
+								<label class="checkbox-label"><input type="checkbox"> Для детей</label>
+							</div>
 						</div>
-					</div>
-                    <div class="filter-divider"></div>
-					<div class="filter-group">
-						<div class="filter-label categories-header">
-							Категории
-							<a href="categories.html" class="view-all">Посмотреть все</a>
-						</div>
-						<div class="filter-checkboxes">
-							<label class="checkbox-label"><input type="checkbox"> Логические</label>
-							<label class="checkbox-label"><input type="checkbox"> Про животных</label>
-							<label class="checkbox-label"><input type="checkbox"> Про природу</label>
-							<label class="checkbox-label"><input type="checkbox"> Про вещи</label>
-							<label class="checkbox-label"><input type="checkbox"> Для детей</label>
-						</div>
-					</div>
+					</details>
 				</aside>
 
+				<!-- КОНТЕНТ С ЗАГАДКАМИ -->
 				<div class="riddles-content">
 					<div class="riddles-grid">
 						
